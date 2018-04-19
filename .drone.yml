@@ -1,7 +1,8 @@
 workspace:
   base: /drone-demo/drone-demo
   path: .
-  pipeline:
+
+pipeline:
   build:
      image: golang:alpine
      # pull: true
